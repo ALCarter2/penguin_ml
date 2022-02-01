@@ -7,7 +7,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 import pickle 
 
-st.title('Penguin Classifier')
+st.title('Penguin Classifier: A Machine Learning App')
 st.write('This app uses 6 inputs to predict the specifies of penguin using '
 'a model built on the Palmers Penguins dataset. Use '
 'the form below to get started!')
