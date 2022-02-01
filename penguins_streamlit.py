@@ -75,8 +75,7 @@ st.write("Below are the histograms for each continue variable "
 "represents your input value ")
 
 fig, ax = plt.subplots()
-ax = sns.displot(x=penguin_df['bill_length_mm'],
-hue=penguin_df['species'])
+ax = sns.displot(x=penguin_df['bill_length_mm'], hue=penguin_df['species'])
 plt.axvline(bill_length)
 plt.title('Bill Length by Species')
 st.pyplot(ax)
